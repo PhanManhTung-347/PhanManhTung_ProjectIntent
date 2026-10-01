@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NHẬP THÔNG TIN SINH VIÊN"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtMaSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sinh viên"/>
+
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ và tên"/>
+
+    <EditText
+        android:id="@+id/edtLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lớp"/>
+
+    <EditText
+        android:id="@+id/edtGpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="GPA"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
